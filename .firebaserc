@@ -1,0 +1,6 @@
+{
+  "projects": {
+    "default": "stock-market-api-ak",
+    "firebase-stock-market-ak": "stock-market-api-ak"
+  }
+}
