@@ -1,0 +1,82 @@
+body {
+    background:
+         linear-gradient(
+            rgba(64, 172, 127, 0.966), 
+            rgba(12, 95, 67, 0.479)
+            ),
+        url(assets/madison-kaminski-508378-unsplash.jpg);
+        background-repeat: no-repeat;
+        background-attachment: fixed;
+        background-size: cover;
+        background-position: center;
+    font-family: 'Amaranth', sans-serif;    
+}
+
+header {
+    padding-top: 3em;
+    text-align: center;
+}
+
+#intro {
+    text-align: center;
+}
+
+p {
+    font-size: 1.5em;
+    font-family: 'Amaranth', sans-serif;
+}
+
+#stockicon {
+    width: 5em;
+    height: 5em;
+}
+
+#iconSection {
+    width: 8em;
+    height: 6em;
+    border-radius: 15px;
+    background-color: #387455;
+    justify-content: center;
+    display: inline-block;
+}
+
+.row {
+    padding-top: 2em;
+}
+
+form {
+    justify-content: center;
+    text-align: center;
+    padding-top: 5em;
+    padding-right: 10em;
+    padding-bottom: 10em;
+}
+
+#catergories {
+    text-align: right;
+    justify-content: center;
+}
+
+#stockData {
+    text-align: left;
+    color: black;
+}
+
+#resultsBackground{
+    background: silver;
+    width: 30em;
+    margin-left: auto;
+    margin-right: auto;
+    border-radius: 25px;
+    opacity: .7;
+    color: black;
+    border-color:red;
+    border-width: 10px;
+    padding-bottom: 1em;
+}
+
+footer {
+    padding-top: 5em;
+    font-size: 15px;
+    padding-left: 1em;
+}
