@@ -21,6 +21,10 @@ header {
     text-align: center;
 }
 
+h1 {
+    font-size: 6em;
+}
+
 p {
     font-size: 1.5em;
     font-family: 'Amaranth', sans-serif;
@@ -49,7 +53,13 @@ form {
     text-align: center;
     padding-top: 5em;
     padding-right: 10em;
-    padding-bottom: 10em;
+    padding-bottom: 5em;
+}
+#greenButton {
+    width: 8em;
+    height: 4em;
+    text-align: center;
+    font-size: 20px;
 }
 
 #catergories {
@@ -79,4 +89,7 @@ footer {
     padding-top: 5em;
     font-size: 15px;
     padding-left: 1em;
+    text-align: center;
 }
+
+

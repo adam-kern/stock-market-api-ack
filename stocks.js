@@ -4,7 +4,7 @@ let url;
 
 let symbol = document.querySelector('.search');
 let searchForm = document.querySelector('form');
-let submitBtn = document.querySelector('.submit');
+let submitBtn = document.getElementById('greenButton');
 let stockData = document.getElementById('stockData');
 
 searchForm.addEventListener('submit', submitSearch);
@@ -28,8 +28,9 @@ function fetchResults(e) {
       console.log(keys[i]);
       let p = document.createElement('p');
       let stocks = json['Global Quote'][keys[i]]; 
+      // stocks = Number(stocks)/10;
       stockData.appendChild(p);
-      p.innerHTML = stocks + '<br>';
+      p.innerHTML = '$' + stocks + '<br>';
 
     }
   }
